@@ -1,3 +1,5 @@
+//Within this file you'll find the list of questions for the user
+
 const inquirer = require("inquirer");
 
 
@@ -20,23 +22,23 @@ function userQuestions() {
         },
         {
             type: "input",
-            name: "Usage",
+            name: "usage",
             message: "What is this project used for? And to what extent is it able to be used?",
         },
-        {
-            type: "list",
-            name: "Licenses",
-            message: "What are the licenses that you've obtained for your project?",
-            choices: "",
-        },
+        // {
+        //     type: "list",
+        //     name: "licenses",
+        //     message: "What are the licenses that you've obtained for your project?",
+        //     choices: "",
+        // },
         {
             type: "input",
-            name: "Contributing",
+            name: "contributers",
             message: "Who all contributed to this jaw-dropping project?",
         },
         {
             type: "input",
-            name: "Tests",
+            name: "tests",
             message: "What are some tests for your application that can be ran for quality assurance, and how could we run them?",
         },
         {
@@ -55,3 +57,7 @@ function userQuestions() {
 module.exports = {
     userQuestions
 }
+
+//Test function
+// userQuestions()
+// .then(response => console.log(response));
