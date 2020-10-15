@@ -9,7 +9,7 @@ const fs = require("fs");
 const { generateMarkdown } = require ("./generateMarkdown.js");
 
 function renderQuestions(data){
-    
+
 const questions = [
     {
         type: "input",
@@ -68,6 +68,7 @@ function init() {
         writeToFile("READMETEST3.md", generateMarkdown({ ...inquirerResponses}));
     })
 }
+
 
 init();
 
