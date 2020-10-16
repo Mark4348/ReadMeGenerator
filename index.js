@@ -1,22 +1,19 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const writeFileAsync = util.promisify(fs.writeFile);
 
+const { userQuestions } = require ("./questions");
+const { generateMarkdown } = require("./generateMarkdown");
+const { writeFileAsync } = require("./writer");
 
-
-// array of questions for user
-const questions = [
-
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
+//function to grab files 
+async function generateFile(){
+    try {
+        const answers = await userQuestions();
+        const profileMarkdown = generateMarkdown(answers);
+        await writeFileAsync(answers.title + ".md", profileMarkdown);
+        console.log("Done");
+    } catch(err){
+        console.log("Something went wrong! Please try again!")
+    }
 }
 
 // function call to initialize program
-init();
+generateFile();

@@ -27,13 +27,13 @@ function userQuestions() {
         },
         // {
         //     type: "list",
-        //     name: "licenses",
+        //     name: "license",
         //     message: "What are the licenses that you've obtained for your project?",
         //     choices: "",
         // },
         {
             type: "input",
-            name: "contributers",
+            name: "contributors",
             message: "Who all contributed to this jaw-dropping project?",
         },
         {
