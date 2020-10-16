@@ -1,10 +1,10 @@
 
 
-  # ReadMeGenerator
+  # RedMeGenerator
  
   ## Description
   ___________________________________________________________________
-  This project is a quick and easy command line application for when you need to develop a README file for a project. Just type in 'node index.js' in the command line and follow the prompts! 
+  This project is a quick and easy command line application for when you need to develop a README file for a project. Just type in 'node index.js' in the command line and follow the prompts!
 
   ___________________________________________________________________
   ## Table of Contents
@@ -21,12 +21,12 @@
   ___________________________________________________________________
   ### Steps for installation (#Installation)
   ___________________________________________________________________
-  Just one easy step for installation, just open you terminal in the ReadMeGenerator file and type in npm install in the command line to install all the dependencies thats all!
+  Just one easy step for installation, just open your terminal in the READMeGenerator file and type in npm install in the terminal to install the dependencies, thats all!
   
   ___________________________________________________________________
   ### (#Usage)
   ___________________________________________________________________
-  This application is for developing an easy to read and user friendly tempelate for a  README file for any project that you may need.
+  This application is for developing an easy to read and user friendly tempelate for a README file for any project that you need!
 
   ___________________________________________________________________
   ### (#Contributors)
@@ -35,7 +35,7 @@
 
   ### (#Testing) processes
   ___________________________________________________________________
-  Within each helper file at the bottom is a commented out function for testing purposes, feel free to uncomment them out and poke around!
+  Within eachelper file at the bottom is a commented out function for testing purposes, feel free to uncomment them out and poke around.
 
   ___________________________________________________________________
   #### Check out my github!
