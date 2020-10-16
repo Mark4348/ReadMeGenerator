@@ -11,7 +11,6 @@ function writeFileAsync(filename, filedata){
         })
     })
 
-
 }
 
 module.exports = {
