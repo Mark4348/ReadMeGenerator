@@ -1,13 +1,10 @@
-// function to generate markdown for README
-function generateMarkdown(response) {
-  const {title, description, installation, usage, contributors, tests, license, githubUsername, userEmail} = response;
-  return `
 
-  # ${title}
+
+  # ReadMeGenerator
  
   ## Description
   ___________________________________________________________________
-  ${description}
+  This project is a quick and easy command line application for when you need to develop a README file for a project. Just type in 'node index.js' in the command line and follow the prompts! 
 
   ___________________________________________________________________
   ## Table of Contents
@@ -24,39 +21,33 @@ function generateMarkdown(response) {
   ___________________________________________________________________
   ### Steps for installation (#Installation)
   ___________________________________________________________________
-  ${installation}
+  Just one easy step for installation, just open you terminal in the ReadMeGenerator file and type in npm install in the command line to install all the dependencies thats all!
   
   ___________________________________________________________________
   ### (#Usage)
   ___________________________________________________________________
-  ${usage}
+  This application is for developing an easy to read and user friendly tempelate for a  README file for any project that you may need.
 
   ___________________________________________________________________
   ### (#Contributors)
   ___________________________________________________________________
-  ${contributors}
+  Mark Aguilar
 
   ### (#Testing) processes
   ___________________________________________________________________
-  ${tests}
+  Within each helper file at the bottom is a commented out function for testing purposes, feel free to uncomment them out and poke around!
 
   ___________________________________________________________________
   #### Check out my github!
   ___________________________________________________________________
-  https://github.com/${githubUsername} (#Contact)
+  https://github.com/Mark4348 (#Contact)
   ___________________________________________________________________
   #### Shoot me an email:
   ___________________________________________________________________
-  ${userEmail}
+  m_aguilar_2011@yahoo.com
   ___________________________________________________________________
   ### (#License)
   ___________________________________________________________________
-  ${license}
+  undefined
 
   
-`;
-}
-
-module.exports = {
-
- generateMarkdown }
