@@ -28,6 +28,9 @@
   ___________________________________________________________________
   This application is for developing an easy to read and user friendly tempelate for a README file for any project that you need!
 
+  Step-by-Step Tutorial:
+  https://drive.google.com/file/d/1ed8qgPinfrqQVO7xb72DsDJ1TEIa-wqx/view
+
   ___________________________________________________________________
   ### (#Contributors)
   ___________________________________________________________________
